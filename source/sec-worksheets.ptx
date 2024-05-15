@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-worksheets" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Some worksheets</title>
+
+    <worksheet>
+        <title>Practicing Writing Proofs</title>
+    <page>
+        <activity workspace="10cm">
+          <statement>
+            <p>
+        Prove the theorem <q>If <m>x</m> is an odd integer and
+        <m>y</m> is an odd integer, then <m>xy</m> is an odd integer.</q>
+        </p>
+          </statement>
+    </activity>
+    
+    <activity workspace="12cm">
+      <statement>
+        <p>Prove the theorem <q>For every integer <m>x</m>, <m>x+4</m> is
+        odd if and only if <m>x+7</m> is even.</q> (Recall that this
+        requires proving two separate implications. Identify them before
+        writing your proofs!)</p>
+      </statement>
+    </activity>
+    </page>
+        <page>
+          <p>Another type of theorem that we are sometimes called upon to
+          prove is a <term>uniqueness theorem</term>.<idx><h>uniqueness theorem</h></idx>
+          <idx><h>theorem</h><h>uniqueness</h></idx>
+           In such a case, we
+          must prove that the thing in question exists as well as prove
+          that there is only one such thing. The next activity walks you
+          through the structure of such an argument.</p>
+    <activity workspace="5cm">
+      <introduction>
+        <p>We want to prove the theorem <q>If <m>c,a,r\in\mathbb{R}</m>
+        such that <m>c\neq 0</m> and <m>r\neq a/c</m>, then there exists a
+        unique <m>x\in\mathbb{R}</m> such that <m>(ax+1)/(cx) =
+        r</m>.</q></p>
+      </introduction>
+      <task>
+        <statement>
+          <p>The first step in a uniqueness proof is to demonstrate that
+          such a beast exists. One pattern for doing this is by coming up
+          with a formula for the thing (here <m>x</m>) that we need to
+          have exist and showing that <m>x</m> does what it's supposed
+          to. <alert>The process of how you come with the <m>x</m> is
+          scratchwork that doesn't go in the proof!</alert>. Thus, we want
+          to start by finding a formula for <m>x</m> so that
+          <m>(ax+1)/(cx) = r</m>. Use familiar algebra skills to do
+          it. What you write up for your proof is going to look like
+          <q>Let <m>x=\cdots</m>. Now substituting and simplifying, we
+          see:</q> starting with <m>(ax+1)/(cx)</m> and simplifying to get
+          <m>r</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>Next, we have to show that our <m>x</m> is unique. To do so,
+          you assume that <m>x_1,x_2\in\mathbb{R}</m> both have the
+          property required. Namely, that  <m>(ax_1+1)/(cx_1) =
+        r</m> and <m>(ax_2+1)/(cx_2) =
+        r</m>. Now you use algebra to show that <m>x_1=x_2</m>, which
+          means that the <m>x</m> you came up with originally really is unique.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>What you have above likely has a lot of scratchwork in
+          it. Rewrite things neatly to have a nice paragraph that proves
+          the theorem.</p>
+        </statement>
+      </task>
+    </activity>
+    </page>
+        <page>
+          <activity workspace="5cm">
+        <introduction>
+          <p>Pick and choose amongst the following for more
+          practice.</p>
+        </introduction>
+        <task>
+          <p>
+          If <m>n</m> is even, then <m>n^2</m> is even.
+          </p>
+        </task>
+        <task><p>If <m>n</m> and <m>m</m> are even,
+            then <m>nm</m> is even. (What do you notice about your
+        proof?)</p></task>
+        <task><p>Prove or disprove: If <m>n</m> is odd, then there
+            exists an integer <m>m</m> such that <m>n^2=8m+1</m>. (If
+            you decide the statement is true and prove it, can you
+            prove that <m>m</m> is unique?)</p>
+        </task>
+        <task><p>For every integer <m>n</m>, if <m>n^2</m> is an odd integer, then <m>n</m> is an
+        odd integer.</p></task>
+          </activity>
+        </page>
+      </worksheet>
+
+</section>
